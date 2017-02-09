@@ -1,7 +1,7 @@
 # Recompiled pinyin4j
 
 
-This is a recompiled version of **Li Min**'s **pinyin4j**(v2.5.0) released on [SourceForge](https://sourceforge.net/projects/pinyin4j/)
+This is a recompiled version of **Li Min**'s **pinyin4j**(v2.5.0) released on [SourceForge](https://sourceforge.net/projects/pinyin4j/).
 
 How to recompile?
 + Create a new Java project and copy sources `pinyin4j-2.5.0.zip/src/net/sourceforge/pinyin4j/` (Ignore `pinyin4j-2.5.0.zip/src/demo/`, `pinyin4j-2.5.0.zip/src/testcase/`).
@@ -23,7 +23,7 @@ dependencies {
 ```
 buildTypes {
     release {
-        minifyEnabled false
+        minifyEnabled true
         proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
     }
 }
